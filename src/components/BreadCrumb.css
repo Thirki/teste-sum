@@ -1,0 +1,9 @@
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breadcrumb li {
+  padding: 0.2rem;
+}

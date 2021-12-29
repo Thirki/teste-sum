@@ -1,0 +1,58 @@
+table {
+  border-spacing: 0 0.5rem;
+  padding: 0.5rem;
+  background-color: #f8f5ff;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin: 0 auto;
+}
+
+table th {
+  color: #140f28;
+  font-weight: 400;
+  padding: 0.5rem 2rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+table th a {
+  color: #6b54bd;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.2s ease-in;
+  text-decoration: none transparent;
+}
+
+table th a:focus,
+table th a:hover {
+  color: #422b96;
+  text-decoration: underline #422b96;
+  transition: all 0.2s ease-in;
+}
+
+table tr th {
+  color: #707186;
+}
+
+table h4 {
+  color: #5a42b4;
+  padding: 0 2rem;
+}
+
+.table-container .resume {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.table-container .resume li {
+  background-color: #4425a7;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
